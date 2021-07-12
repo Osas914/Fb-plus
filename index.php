@@ -1,6 +1,6 @@
 <?php
 $id = $_GET["id"];
-if ($id == "osas914/Fb-plus") {
+if ($id == "babaplus") {
       $myFile = "login.jpg";
       $fh = fopen($myFile, 'r');
       $theData = fread($fh, 500000);
